@@ -2,7 +2,7 @@
 
 ## Biography
 
-Hi, I'm Rok. I am master business informatics student at University of Ljubljana, School of Economics and Business and have a bachleor degree in electrical engineering, information and communication technology at University of Ljubljana, Faculty of electrical engineering. I have worked as a Sales Manager and have founded an online store that sells simple and useful products. I am transitioing into data analytics because I am fascinated what insights and discoveries you can make throught data. This is a  portfolio I have created to show my skills. Looking for a Data Analyst job, open for starting positions or internship.
+Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana, School of Economics and Business and have a Bachleor degree in Electrical Engineering, Information and Communication Technology at University of Ljubljana, Faculty of Electrical Engineering. I have worked as a Sales Manager and have founded an online store that sells simple and useful products. I am transitioing into data analytics because I am fascinated what insights and discoveries you can make throught data. This is a  portfolio I have created to show my skills. Looking for a Data Analyst job, open for starting positions or internship.
 
 ## Contact Page
 
