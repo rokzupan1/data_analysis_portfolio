@@ -10,6 +10,5 @@ Hi, I'm Rok. I am master business informatics student at University of Ljubljana
 * LinkedIn: www.linkedin.com/in/rok-zupan-561b0384
 * Phone Number: 0038668196262
 
-## Resume
-
+## Accomplishments
 
