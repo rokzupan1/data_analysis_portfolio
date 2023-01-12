@@ -12,13 +12,9 @@ Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana
 
 ## Accomplishments
 
+### Google Data Analysis Case Study
 
----
-title: "delete_rows_at_least_one_empty_cell"
-author: "Rok"
-date: "2023-01-12"
-output: html_document
----
+I have downloaded 12 files for each month of bike trips. Using this R script I removed the rows that have at least one empty cell.
 
 ```{r setup, include=FALSE}
 # Read the CSV file
