@@ -12,6 +12,9 @@ Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana
 
 ## Accomplishments
 
+### Business Analyst Qlik Sense Qualification
+Sheets: [sheets]
+
 ### Google Data Analysis Case Study
 
 I have downloaded 12 files for each month of bike trips. Using this R script I removed the rows that have at least one empty cell.
