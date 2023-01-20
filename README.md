@@ -17,5 +17,6 @@ Sheets: [sheets]
 
 ### Google Data Analysis Case Study
 
-Program Code: <link>
+Program code: [LINK](https://raw.githubusercontent.com/rokzupan1/data_analysis_portfolio/main/BikeTripsAnalysis)
+Language: R
 
