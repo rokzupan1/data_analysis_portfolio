@@ -17,22 +17,5 @@ Sheets: [sheets]
 
 ### Google Data Analysis Case Study
 
-I have downloaded 12 files for each month of bike trips. Using this R script I removed the rows that have at least one empty cell.
+Program Code: <link>
 
-```{r setup, include=FALSE}
-# Read the CSV file
-df <- read.csv("202209-divvy-publictripdata.csv", na.strings = c("", "NA"))
-# Remove rows with at least one empty cell
-df <- df[complete.cases(df), ]
-# Write the modified dataframe to a new CSV file
-write.csv(df, file = "BikeTrips2022-09.csv", row.names = FALSE)
-```
-Deleting rows/observations if the ended_at is older date than started_at.
-
-```{r setup, include=FALSE}
-library(dplyr)
-df <- df %>% 
-  mutate(started_at = as.POSIXct(started_at, format = "%Y-%m-%d %H:%M:%S"),
-         ended_at = as.POSIXct(ended_at, format = "%Y-%m-%d %H:%M:%S")) %>%
-  filter(started_at <= ended_at)
-```
