@@ -16,4 +16,4 @@ Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana
 
 * Language: R
 * [Program code](https://raw.githubusercontent.com/rokzupan1/data_analysis_portfolio/main/BikeTripsAnalysis)
-
+* [Data Visualization](https://github.com/rokzupan1/data_analysis_portfolio/blob/db8319cb8023c24ad3bd16ad41fab80517000cf5/MyCaseStudyVisualization.pdf)
