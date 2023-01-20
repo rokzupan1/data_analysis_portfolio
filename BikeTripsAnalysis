@@ -240,7 +240,9 @@ all_trips_v2 %>%
             ,average_duration = mean(ride_length)) %>% 
   arrange(usertype, weekday)  %>% 
   ggplot(aes(x = weekday, y = number_of_rides, fill = usertype)) +
-  geom_col(position = "dodge")
+  geom_col(position = "dodge") + xlab("Day of Week") +
+  ylab("Number of Rides") +
+  ggtitle("Number of Rides by User Type and Day of Week")
 
 # Visualization for average duration
 all_trips_v2 %>% 
@@ -248,17 +250,13 @@ all_trips_v2 %>%
   group_by(usertype, weekday) %>% 
   summarise(number_of_rides = n()
             ,average_duration = mean(ride_length)) %>% 
-  arrange(usertype, weekday)  %>% 
+  arrange(weekday)  %>% 
   ggplot(aes(x = weekday, y = average_duration, fill = usertype)) +
-  geom_col(position = "dodge")
+  geom_col(position = "dodge") + xlab("Day of Week") +
+  ylab("Average Ride Length (seconds)") +
+  ggtitle("Average Ride Length by User Type and Day of Week")
+
 
 #Creating a CSV file with avg_ride_lenght by usertype for all the days in week
 counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$usertype + all_trips_v2$day_of_week, FUN = mean)
 write.csv(counts, file = 'avg_ride_length.csv')
-
-#Visualization for all days in a week by different usertype differentitated by avgerage ride_length
-ggplot(all_trips_v2, aes(x = day_of_week, y = ride_length, fill = usertype)) +
-  geom_bar(stat = "summary", fun.y = "mean", position = "dodge") +
-  xlab("Day of Week") +
-  ylab("Average Ride Length (seconds)") +
-  ggtitle("Average Ride Length by User Type and Day of Week")
