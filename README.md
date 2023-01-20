@@ -12,9 +12,6 @@ Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana
 
 ## Accomplishments
 
-### Business Analyst Qlik Sense Qualification
-Sheets: [sheets]
-
 ### Google Data Analysis Case Study
 
 * Language: R
