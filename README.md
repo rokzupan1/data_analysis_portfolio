@@ -21,7 +21,7 @@ Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana
 
 #### SQL and Tableau
 * Language: SQL, Environmnet: MySQL
-* I uploaded the first quarter of bike trips in 2022 using Table Data Import Wizard, manipulated and clean data using SQL and made visulization using Tableau.
-* [Program Code]()
+* I uploaded the first quarter of bike trips in 2022 using Table Data Import Wizard, manipulated and clean data using SQL and made visulization using Qlik Sense.
+* [Program Code](https://raw.githubusercontent.com/rokzupan1/data_analysis_portfolio/914ab514610ab65b839f5797b5d755588979cb39/sql)
 * [Data Visualization]()
 
