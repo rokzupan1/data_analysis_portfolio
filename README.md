@@ -20,8 +20,8 @@ Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana
 * [Data Visualization](https://github.com/rokzupan1/data_analysis_portfolio/blob/db8319cb8023c24ad3bd16ad41fab80517000cf5/MyCaseStudyVisualization.pdf)
 
 #### SQL and Qlik Sense
-* Language: SQL, Environmnet: MySQL
+* Language: SQL, Environmnet: MySQL, Qlik Sense
 * I uploaded the first quarter of bike trips in 2022 using Table Data Import Wizard, manipulated and clean data using SQL and made visulization using Qlik Sense.
 * [Program Code](https://raw.githubusercontent.com/rokzupan1/data_analysis_portfolio/914ab514610ab65b839f5797b5d755588979cb39/sql)
-* [Data Visualization]()
+* [Data Visualization](https://2eqjaqx0akhkd2s.eu.qlikcloud.com/sense/app/26b5f8e5-b780-4385-8004-44ac14edb9e6/story/f59248e6-7635-40f2-916f-fcb1ef29b4ca/state/play/slide/KLTL)
 
