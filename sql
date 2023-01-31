@@ -31,19 +31,19 @@ ORDER BY number_of_trips_finished_at_station DESC
 LIMIT 10;
 
 -- 10 Most used stations to finish a trip using DOCKED bike
-SELECT COUNT(ride_id) AS number_of_trips_finished_at_station, end_station_name
+SELECT COUNT(ride_id) AS Number_End_Stations_Docked_Bike, end_station_name AS Name_10_End_Stations_Docked_Bike
 FROM biketrips2022q1
 WHERE rideable_type = "docked_bike"
 GROUP BY end_station_name
-ORDER BY number_of_trips_finished_at_station DESC
+ORDER BY Number_End_Stations_Docked_Bike DESC
 LIMIT 10;
 
 -- 10 Most used stations to start a trip using DOCKED bike
-SELECT COUNT(ride_id) AS number_of_trips_started_at_station, start_station_name
+SELECT COUNT(ride_id) AS Number_Start_Stations_Docked_Bike, start_station_name AS Name_10_Start_Stations_Docked_Bike
 FROM biketrips2022q1
 WHERE rideable_type = "docked_bike"
 GROUP BY start_station_name
-ORDER BY number_of_trips_started_at_station DESC
+ORDER BY Number_Start_Stations_Docked_Bike DESC
 LIMIT 10;
 
 -- 10 Most used stations to finish a trip using CLASSIC bike
@@ -61,6 +61,16 @@ WHERE rideable_type = "electric_bike"
 GROUP BY end_station_name
 ORDER BY number_of_trips_finished_at_station DESC
 LIMIT 10;
+
+SELECT COUNT(ride_id) AS Number_of_Usertype, member_casual AS Usertype
+FROM biketrips2022q1
+WHERE rideable_type = "docked_bike" && start_station_name = "Streeter Dr & Grand Ave"
+GROUP BY member_casual;
+
+SELECT COUNT(ride_id) AS Number_of_Usertype, member_casual AS Usertype
+FROM biketrips2022q1
+WHERE rideable_type = "docked_bike"
+GROUP BY member_casual;
 
 SELECT COUNT(ride_id) AS number_of_trips
 FROM biketrips2022q1
