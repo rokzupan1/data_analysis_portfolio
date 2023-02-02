@@ -1,4 +1,4 @@
-# Rok Zupan - Data Analysis Portfolio
+# Rok Zupan - First 2 Projects
 
 ## Biography
 
