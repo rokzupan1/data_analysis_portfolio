@@ -30,4 +30,4 @@ Hi, I'm Rok. I am Master Business Informatics student at University of Ljubljana
 
 #### SQL Queries
 * [Code](https://raw.githubusercontent.com/rokzupan1/data_analysis_portfolio/main/footballprojectday1)
-
+* [Presentation](https://github.com/rokzupan1/data_analysis_portfolio/blob/7daae8374e8471e1253ebf8aadb946b18515a510/Presentation.pdf)
