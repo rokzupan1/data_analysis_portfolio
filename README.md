@@ -1,4 +1,4 @@
-##First 2 Projects
+## First 2 Projects
 
 ### Google Data Analysis Case Study
 
