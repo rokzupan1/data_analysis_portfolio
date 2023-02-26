@@ -3,6 +3,7 @@
 ### Google Data Analysis Case Study
 
 #### R
+Using a script that was not scripted correctly for my case, I adjusted the code and create an analysis.
 * Language: R, Environment: RStudio
 * [Program Code](https://raw.githubusercontent.com/rokzupan1/data_analysis_portfolio/main/BikeTripsAnalysis)
 * [Data Visualization](https://github.com/rokzupan1/data_analysis_portfolio/blob/db8319cb8023c24ad3bd16ad41fab80517000cf5/MyCaseStudyVisualization.pdf)
